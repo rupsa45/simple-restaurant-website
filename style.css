@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #FFFDF8;
+    color: white;
+    
+}
+
+.container{
+    background-image: url("/assets/img/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    margin: auto;
+}
+
+.black-shadow{
+    height: 75vh;
+    width: 100%;
+    height: 100%;
+    opacity: 0.66;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+nav{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height: 70px;
+   position: relative;
+   z-index: 10;
+   padding: 0 25px;
+   z-index: 10;
+}
+
+nav span{
+    font-size: 24px;
+    font-weight: 800;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #34704A;
+    padding: 15px 25px;
+    border: none;
+    /* border-radius: 5px; */
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+
+.container .box{
+    height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    z-index: 10;
+    width: 100%;
+}
+.btn:hover{
+    background-color: #F1FBBD;
+    transition: all;
+    color: #34704A;
+}
+.container .box h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+.container .box p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container2 h1{
+font-size: 25px;
+font-weight: 800;
+text-align: center;
+margin: 20px 0;
+color: #34704A;
+}
+
+.container2 .menu{
+    max-width:90vw;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;    
+    /* background-color: #F1FBBD; */
+}
+
+.menu-item{
+    /* background-color: #272727; */
+    padding: 20px;
+    border-radius:10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    color: #34704A;
+    
+}
+
+.menu-item:hover{
+    transition: all 0.3s ease-in-out;
+}
+.menu-item img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.menu-item img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.items img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    opacity: 0.55;
+    cursor: pointer;
+}
+
+.container3{
+    color: #34704A;
+    max-width: 70vw;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.container3 .items{
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.container3 .items img{
+    border-radius: 5px;
+}
+.items h2{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+
+.container4{
+    background-color: #FFDEEA;
+    color: #34704A;
+    display: flex;
+}
+
+.container4 .box-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 70vw;
+    padding: 30px;
+    height: 50vh;
+}
+
+.box-items .box12{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.box12 h1{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.box12 p{
+    font-family:  serif ;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.small-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+@media  (max-width:750px) {
+    .container .box h1{
+        font-size:25px;
+    }
+    .container2 .menu{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .container3 .items{
+        flex-direction: column;
+    }
+
+    .box-items .box12{
+       flex-direction: column;
+       gap: 15px;
+    }
+
+}
+
+
+.container5{
+    background-color: #F5E9E6;
+    color: #34704A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+}
+
+.container5 h1{
+   font-family: "Caveat", cursive;
+   font-size:50px;
+    font-weight: 800;
+}
+
+.login {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #FFFDF8;
+  }
+
+  .login-main {
+    flex:1;
+    background-image: url("/assets/img/bg4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    padding: 40px;
+    background-color: #FFF2EB;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .login h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    color: #34704A;
+    margin-bottom: 30px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .form .inputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .form .inputBox label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #34704A;
+  }
+
+  .form .inputBox input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    outline: none;
+    font-size: 16px;
+    transition: border 0.3s ease;
+  }
+
+  .form .inputBox input:focus {
+    border-color: #34704A;
+  }
+
+  .inputBox-btn {
+    margin-top: 10px;
+  }
+
+  .inputBox-btn button {
+    background-color: #34704A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .inputBox-btn button:hover {
+    background-color: #295a3a;
+  }
+
+  .form .inputBox p {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .form .inputBox a {
+    color: #34704A;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .form .inputBox a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .login {
+      flex-direction: column;
+    }
+    
+    .login-form {
+      width: 90%;
+      margin: 20px auto;
+      order: 1;
+    }
+    
+    .login-main {
+      height: 30vh;
+      order: 2;
+    }
+  }
+
+
+  .menu-box h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Cedarville Cursive', cursive;
+    text-decoration: underline;
+    color: #34704A;
+  }
+  
+  
+  #menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .menu-items {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+  
+  .menu-items:hover {
+    transform: scale(1.03);
+  }
+  
+  .menu-items img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu-items span {
+    display: inline-block;
+    margin: 10px 15px 0;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .menu-items h2 {
+    margin: 10px 15px 5px;
+    font-size: 1.3rem;
+    color: #222;
+  }
+  
+  .menu-items p {
+    margin: 0 15px 15px;
+    color: #666;
+    font-size: 0.95rem;
+  }

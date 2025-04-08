@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1",
+    "title": "Margherita Pizza",
+    "description": "Classic pizza with fresh tomatoes and mozzarella",
+    "price": 8.99,
+    "image": "https://images.pexels.com/photos/31450853/pexels-photo-31450853/free-photo-of-delicious-margherita-pizza-with-fresh-tomatoes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Pizza"
+  },
+  {
+    "id": "2",
+    "title": "Veggie Burger",
+    "description": "Grilled veggie patty with lettuce and tomato",
+    "price": 7.49,
+    "image": "https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Burgers"
+  },
+  {
+    "id": "3",
+    "title": "Chicken Nuggets",
+    "description": "Crispy chicken nuggets served with ketchup",
+    "price": 5.99,
+    "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Snacks"
+  },
+  {
+    "id": "4",
+    "title": "Cheese Fries",
+    "description": "Golden fries topped with melted cheddar cheese",
+    "price": 4.49,
+    "image": "https://images.pexels.com/photos/16108600/pexels-photo-16108600/free-photo-of-close-up-of-french-fries.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Sides"
+  },
+  {
+    "id": "5",
+    "title": "Pepperoni Pizza",
+    "description": "Pizza topped with mozzarella and spicy pepperoni slices",
+    "price": 9.49,
+    "image": "https://images.pexels.com/photos/31450871/pexels-photo-31450871/free-photo-of-delicious-homemade-pizza-with-fresh-toppings.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Pizza"
+  },
+  {
+    "id": "6",
+    "title": "BBQ Chicken Sandwich",
+    "description": "Grilled chicken with smoky BBQ sauce and crispy onions",
+    "price": 7.99,
+    "image": "https://images.pexels.com/photos/1603898/pexels-photo-1603898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Burgers"
+  },  
+  {
+    "id": "7",
+    "title": "Grilled Chicken Wrap",
+    "description": "Grilled chicken, lettuce, and sauce wrapped in a tortilla",
+    "price": 6.99,
+    "image": "https://images.pexels.com/photos/17200361/pexels-photo-17200361/free-photo-of-delicious-kebab-with-meat-lettuce-tomato-red-onion-and-sauce-with-french-fries-and-sauce.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Wraps"
+  },
+  {
+    "id": "8",
+    "title": "Onion Rings",
+    "description": "Crispy deep-fried onion rings served with dip",
+    "price": 3.99,
+    "image": "https://images.pexels.com/photos/263049/pexels-photo-263049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Sides"
+  },
+  {
+    "id": "9",
+    "title": "Chocolate Milkshake",
+    "description": "Thick milkshake made with real chocolate ice cream",
+    "price": 4.75,
+    "image": "https://images.pexels.com/photos/8743859/pexels-photo-8743859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Drinks"
+  },
+  {
+    "id": "10",
+    "title": "Caesar Salad",
+    "description": "Fresh lettuce, parmesan, croutons, and Caesar dressing",
+    "price": 5.99,
+    "image": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Salads"
+  },
+  {
+    "id": "11",
+    "title": "Spaghetti Bolognese",
+    "description": "Spaghetti pasta with rich meat sauce and herbs",
+    "price": 9.75,
+    "image": "https://images.pexels.com/photos/10067947/pexels-photo-10067947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Pasta"
+  },
+  {
+    "id": "12",
+    "title": "Iced Lemon Tea",
+    "description": "Refreshing iced tea with a splash of lemon",
+    "price": 2.99,
+    "image": "https://images.pexels.com/photos/1148215/pexels-photo-1148215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Drinks"
+  },
+  {
+    "id": "13",
+    "title": "Mushroom Pizza",
+    "description": "Pizza topped with mushrooms and melted cheese",
+    "price": 8.75,
+    "image": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "Pizza"
+  }
+]
