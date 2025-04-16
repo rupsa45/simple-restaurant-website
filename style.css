@@ -240,6 +240,10 @@ color: #34704A;
        gap: 15px;
     }
 
+    .btn-get{
+      display: none;
+    }
+
 }
 
 
